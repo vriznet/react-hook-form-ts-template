@@ -8,6 +8,7 @@ import Text from './components/Text';
 import Textarea from './components/Textarea';
 import Select from './components/Select';
 import Checkbox from './components/Checkbox';
+import Radio from './components/Radio';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
       { path: '/textarea', element: <Textarea /> },
       { path: '/select', element: <Select /> },
       { path: '/checkbox', element: <Checkbox /> },
-      // { path: '/radio', element: <Radio /> },
+      { path: '/radio', element: <Radio /> },
       // { path: '/range', element: <Range /> },
     ],
   },
