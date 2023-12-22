@@ -6,6 +6,7 @@ import Layout from './components/Layout';
 import ErrorPage from './components/ErrorPage';
 import Text from './components/Text';
 import Textarea from './components/Textarea';
+import Select from './components/Select';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
       { path: '/', element: <App /> },
       { path: '/text', element: <Text /> },
       { path: '/textarea', element: <Textarea /> },
-      // { path: '/select', element: <Select /> },
+      { path: '/select', element: <Select /> },
       // { path: '/checkbox', element: <Checkbox /> },
       // { path: '/radio', element: <Radio /> },
       // { path: '/range', element: <Range /> },
