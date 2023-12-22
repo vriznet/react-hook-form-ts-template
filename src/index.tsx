@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout';
 import ErrorPage from './components/ErrorPage';
 import Text from './components/Text';
+import Textarea from './components/Textarea';
 
 const router = createBrowserRouter([
   {
@@ -13,11 +14,11 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <App /> },
       { path: '/text', element: <Text /> },
-      /* { path: '/textarea', element: <Textarea /> },
-      { path: '/select', element: <Select /> },
-      { path: '/checkbox', element: <Checkbox /> },
-      { path: '/radio', element: <Radio /> },
-      { path: '/range', element: <Range /> }, */
+      { path: '/textarea', element: <Textarea /> },
+      // { path: '/select', element: <Select /> },
+      // { path: '/checkbox', element: <Checkbox /> },
+      // { path: '/radio', element: <Radio /> },
+      // { path: '/range', element: <Range /> },
     ],
   },
 ]);
